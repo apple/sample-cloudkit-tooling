@@ -1,0 +1,21 @@
+{
+  "name": "sample-travis-ci",
+  "version": "1.0.0",
+  "description": "Sample Travis CI integration",
+  "repository": "git@github.com:ExampleCompany1/SampleTravisCI.git",
+  "author": "Kent Wong <kent_wong@apple.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:before_script": "node src/resetAndApplySchema.js"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "@types/jest": "^27.4.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@apple/cktool.database": "1.2.341",
+    "@apple/cktool.target.nodejs": "1.2.341"
+  }
+}

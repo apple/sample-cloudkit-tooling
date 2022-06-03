@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    // "sourceMap": true,
+    "target": "ES2019",
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "lib": ["ES2019"]
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "sample-schema-mgmt",
+  "version": "1.0.0",
+  "description": "CKTool JS sample demonstrating schema management",
+  "main": "index.js",
+  "keywords": [
+    "cktool",
+    "js",
+    "sample",
+    "schema"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apple/cktool.database": "1.2.341",
+    "@apple/cktool.target.nodejs": "1.2.341"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}

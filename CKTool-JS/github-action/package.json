@@ -1,0 +1,15 @@
+{
+  "name": "sample-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reset-schema": "node src/resetAndApplySchema.js"
+  },
+  "dependencies": {
+    "@apple/cktool.database": "1.2.341",
+    "@apple/cktool.target.nodejs": "1.2.341"
+  },
+  "author": "",
+  "license": "ISC"
+}
