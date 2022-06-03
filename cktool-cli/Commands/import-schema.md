@@ -19,7 +19,7 @@
 #### Example Invocation
 
 ```
-❯ xcrun cktool import-schema --team-id 6K6EUR9N36 --container-id com.apple.acp.dev --environment development --file schema.ckdb
+❯ xcrun cktool import-schema --team-id WWDRTEAMID --container-id iCloud.com.mycompany.mycontainer --environment development --file schema.ckdb
 ```
 
 #### Example Output

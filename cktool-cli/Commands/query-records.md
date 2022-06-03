@@ -28,8 +28,8 @@
 
 ```
 ❯ xcrun cktool query-records \
-  --team-id 6K6EUR9N36 \
-  --container-id com.apple.acp.dev \
+  --team-id WWDRTEAMID \
+  --container-id iCloud.com.mycompany.mycontainer \
   --environment development \
   --database-type public \
   --record-type CoffeeShop \

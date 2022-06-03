@@ -22,7 +22,7 @@ Specifying `--output-file <path>` will write schema file to disk.
 #### Example Invocation
 
 ```
-❯ xcrun export-schema --team-id 76K942XQM3 --container-id com.apple.acp.dev --environment production
+❯ xcrun export-schema --team-id WWDRTEAMID --container-id iCloud.com.mycompany.mycontainer --environment production
 ```
 
 #### Example Output
