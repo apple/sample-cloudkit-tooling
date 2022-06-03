@@ -14,4 +14,6 @@ These sample projects demonstrate the use of CKTool JS and cktool.
 
 ### cktool CLI
 
-- [`sample-schema-mgmt-cli`](./cktool-cli/sample-schema-mgmt-cli/README.md) Schema management.
+- [Samples Overview](./cktool-cli/README.md)
+- [`schema-management`](./cktool-cli/schema-management/README.md) Schema management.
+- [`record-operations`](./cktool-cli/record-operations/README.md) Creating and deleting records.

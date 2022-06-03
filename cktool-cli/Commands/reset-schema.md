@@ -14,7 +14,7 @@
 #### Example Invocation
 
 ```
-❯ xcrun cktool reset-schema --team-id 6K6EUR9N36 --container-id com.apple.cktool.testcontainer
+❯ xcrun cktool reset-schema --team-id WWDRTEAMID --container-id iCloud.com.mycompany.mycontainer
 ```
 
 #### Example Output

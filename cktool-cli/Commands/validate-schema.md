@@ -21,7 +21,7 @@ Acts as a dry-run of `import-schema`
 #### Example Invocation
 
 ```
-❯ xcrun cktool validate-schema --team-id 6K6EUR9N36 --container-id com.apple.acp.dev --environment development --file schema.ckdb
+❯ xcrun cktool validate-schema --team-id WWDRTEAMID --container-id iCloud.com.mycompany.mycontainer --environment development --file schema.ckdb
 ```
 
 #### Example Output
