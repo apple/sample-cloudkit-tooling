@@ -36,30 +36,30 @@ const defaultArgs = {
 
 async function importSchema() {
   try {
-    console.log(`Uploading schema...`);
+    console.log('Uploading schema...');
     const buffer = await fs.readFile(schemaPath);
     const file = new File([buffer], schemaFileName);
+
     await api.importSchema({
       ...defaultArgs,
-      // In addition to the default arguments,
-      // we need to provide a file to this method.
       file,
     });
-    console.log(`Schema uploaded successfully`);
-  } catch (ex) {
-    console.error(configuration.jsonStringify(ex, null, 2));
-    throw ex;
+
+    console.log('Schema uploaded successfully');
+  } catch (error) {
+    console.error(configuration.jsonStringify(error, null, 2));
+    throw error;
   }
 }
 
 async function resetToProduction() {
   try {
-    console.log(`Resetting schema to production...`);
+    console.log('Resetting schema to production...');
     await api.resetToProduction(defaultArgs);
-    console.log(`Schema reset to production successfully`);
-  } catch (ex) {
-    console.error(configuration.jsonStringify(ex, null, 2));
-    throw ex;
+    console.log('Schema reset to production successfully');
+  } catch (error) {
+    console.error(configuration.jsonStringify(error, null, 2));
+    throw error;
   }
 }
 
